@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Assessment Test Suite">
+
+<listeners>
+		<listener
+			class-name="utilities.ExtentReportManager" />
+	</listeners>
+
+	<test name="Assessment Tests">
+		<classes>
+			<class name="testCase.TC001_nCino"/>
+			
+		</classes>
+	
+	</test>
+
+</suite>
